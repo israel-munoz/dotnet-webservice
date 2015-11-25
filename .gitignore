@@ -1,0 +1,8 @@
+packages/*
+ServiceTest.v11.suo
+DesktopApp/bin/*
+DesktopApp/obj/*
+Models/bin/*
+Models/obj/*
+Service/bin/*
+Service/obj/*
