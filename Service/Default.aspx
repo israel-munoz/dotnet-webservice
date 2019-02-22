@@ -23,7 +23,7 @@
             </div>
         </form>
     </div>
-    <script src="<%= ResolveClientUrl("~/Scripts/jquery-2.1.4.min.js")%>"></script>
+    <script src="<%= ResolveClientUrl("~/Scripts/jquery-3.3.1.min.js")%>"></script>
     <script>
         function userFound(data) {
             var user = data.d;
@@ -45,7 +45,7 @@
                 success: userFound
             })
         }
-        $(document).on('ready', function () {
+        $(function () {
             $('#search-user').on('click', searchUser);
         });
     </script>
